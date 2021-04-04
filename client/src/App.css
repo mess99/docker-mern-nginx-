@@ -1,0 +1,61 @@
+.App {
+  text-align: center;
+}
+
+.App-logo-node {
+  position: absolute;
+  left: 20px;
+  top: 10px;
+}
+.App-logo-nginx {
+  position: absolute;
+  right: 20px;
+  top: 10px;
+}
+
+.App-logo-mongo {
+  position: absolute;
+  right: 20px;
+  bottom: 10px;
+}
+
+
+.App-logo-react {
+  position: absolute;
+  left: 0;
+  bottom: 10px;
+}
+.App-logo-react, .App-logo-node, .App-logo-nginx, .App-logo-mongo, .App-logo-docker {
+  height: 30vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
