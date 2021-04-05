@@ -32,6 +32,7 @@ services:
         depends_on:
             - api
             - db
+            - client
         restart: unless-stopped
 volumes:
     dbprod:

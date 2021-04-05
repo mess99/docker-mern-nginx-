@@ -17,7 +17,7 @@ function App() {
         <img src={mongologo} className="App-logo-mongo" alt="logo" />
         <img src={dockerlogo} className="App-logo-docker" alt="logo" />
         <p>
-          Docker : React - NodeJS - MongoDB - MongoDashboard - Nginx
+          Docker : React - NodeJS - MongoDB - MongoDashboard (port 8081) - Nginx
         </p>
       </header>
     </div>
