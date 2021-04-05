@@ -6,8 +6,8 @@
 
 - Create ./db folder,
 - create .env file inside ./db/
-  - CF Docker hub to init ( image mongo ) (2arg)
-  - CF image mongo-express (3arg)
+  - See Docker hub to init ( image mongo ) (2arg)
+  - See image mongo-express (3arg)
 
 - create .env file inside ./api/
   - DB_USER=
